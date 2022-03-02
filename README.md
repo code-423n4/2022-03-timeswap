@@ -52,8 +52,8 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2022-03-timeswap-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
-- Starts March 3, 2022 00:00 UTC
-- Ends March 5, 2022 23:59 UTC
+- Starts March 4, 2022 00:00 UTC
+- Ends March 6, 2022 23:59 UTC
 
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
