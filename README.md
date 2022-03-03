@@ -57,4 +57,32 @@ Under "SPONSORS ADD INFO HERE" heading below, include the following:
 
 This repo will be made public before the start of the contest. (C4 delete this line when made public)
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
+## Contracts
+
+| Name | LOC | External Contracts Called | Libraries |
+| :--- | :---: | :---: | :---: |
+| Timeswap-V1-Core/TimeswapPair.sol | 523 | 2 | 11 |
+| Timeswap-V1-Core/TimeswapFactory.sol | 76 | 1 | 0 |
+| Timeswap-V1-Convenience/TimeswapConvenience.sol | 625 | 0 | 8 |
+| Timeswap-V1-Convenience/Liquidity.sol | 63 | 0 | 2 |
+| Timeswap-V1-Convenience/BondPrincipal.sol | 72 | 0 | 2 |
+| Timeswap-V1-Convenience/BondInterest.sol | 72 | 0 | 2 |
+| Timeswap-V1-Convenience/InsurancePrincipal.sol | 72 | 0 | 2 |
+| Timeswap-V1-Convenience/InsuranceInterest .sol | 72 | 0 | 2 |
+| Timeswap-V1-Convenience/CollateralizedDebt.sol | 79 | 0 | 3 |
+
+## Describe any novel or unique curve logic or mathematical models implemented in the contracts
+
+The protocol does not use an oracle for collateral factor calculation. Instead, it utilizes a `xyz=k` constant product algorithm to discover both interest rate and collateral factor. x and y determines interest rate, while x and z determines collateral factor. Whenever the ratio of x, y, and z are not up to market rate, then it means it is a favorable price for a lender or borrower.
+
+## Does the token conform to the ERC-20 standard? In what specific ways does it differ?
+
+The following token contracts in the Convenience Repository follow the token standard:
+- BondPrincipal ERC20, 
+- BondInterest ERC20,
+- InsurancePrincipal ERC20, 
+- InsuranceInterest ERC20, 
+- Liquidity ERC20, and 
+- Collateralized Debt ERC721
+
+The key difference they have is that they don’t store total supply in the contract, instead the respective claims (bond tokens and insurance tokens), dues, and liquidity balanceOf of those ERC20 and ERC721 contracts are the total supply.
