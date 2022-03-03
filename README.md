@@ -86,3 +86,16 @@ The following token contracts in the Convenience Repository follow the token sta
 - Collateralized Debt ERC721
 
 The key difference they have is that they don’t store total supply in the contract, instead the respective claims (bond tokens and insurance tokens), dues, and liquidity balanceOf of those ERC20 and ERC721 contracts are the total supply.
+
+[Need updated link - Ric]
+[Timeswap Whitepaper] [Need updated link]
+
+[Timeswap V1 Core Product Specification](https://drive.google.com/file/d/1SQ_Hbv_wQVXEcFlDytAFMA03Rbi5dTLu/view?usp=sharing)
+
+[Timeswap V1 Convenience Product Specification](https://drive.google.com/file/d/1fRgY1PABhmEA34BfxxoqM73dsXkHwSCu/view?usp=sharing)
+
+[Timeswap Gitbook Documentation](https://timeswap.gitbook.io/timeswap/)
+
+[need to update - Ric]
+[Code Walkthrough]
+
