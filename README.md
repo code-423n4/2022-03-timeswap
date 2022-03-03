@@ -87,8 +87,7 @@ The following token contracts in the Convenience Repository follow the token sta
 
 The key difference they have is that they don’t store total supply in the contract, instead the respective claims (bond tokens and insurance tokens), dues, and liquidity balanceOf of those ERC20 and ERC721 contracts are the total supply.
 
-[Need updated link - Ric]
-[Timeswap Whitepaper] [Need updated link]
+[Timeswap Whitepaper](https://github.com/code-423n4/2022-03-timeswap/files/8180278/Timeswap.Whitepaper.pdf)
 
 [Timeswap V1 Core Product Specification](https://drive.google.com/file/d/1SQ_Hbv_wQVXEcFlDytAFMA03Rbi5dTLu/view?usp=sharing)
 
@@ -96,6 +95,5 @@ The key difference they have is that they don’t store total supply in the cont
 
 [Timeswap Gitbook Documentation](https://timeswap.gitbook.io/timeswap/)
 
-[need to update - Ric]
-[Code Walkthrough]
+[Code Walkthrough](https://youtu.be/AEizNC_u_yQ)
 
