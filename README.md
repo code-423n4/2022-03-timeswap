@@ -25,6 +25,10 @@
 
 The protocol does not use an oracle for collateral factor calculation. Instead, it utilizes a `xyz=k` constant product algorithm to discover both interest rate and collateral factor. x and y determines interest rate, while x and z determines collateral factor. Whenever the ratio of x, y, and z are not up to market rate, then it means it is a favorable price for a lender or borrower.
 
+### Note
+
+This is a follow-up to our January Code4rena contest. Our goal is to review the mitigations we have made since.  The findings from the earlier contest can be found over [here](https://github.com/code-423n4/2022-01-timeswap-findings).
+
 ## Does the token conform to the ERC-20 standard? In what specific ways does it differ?
 
 The following token contracts in the Convenience Repository follow the token standard:
